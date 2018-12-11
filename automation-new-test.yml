@@ -1,8 +1,8 @@
 commonfields:
   id: d448b014-8fb2-494d-866d-5ccea6da0c4e
-  version: 3
+  version: 5
 name: new-test
-script: checking modify
+script: checking modify dddd
 type: python
 tags: []
 enabled: true
