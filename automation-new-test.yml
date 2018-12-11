@@ -1,0 +1,11 @@
+commonfields:
+  id: d448b014-8fb2-494d-866d-5ccea6da0c4e
+  version: 1
+name: new-test
+script: checking
+type: python
+tags: []
+enabled: true
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
