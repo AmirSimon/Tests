@@ -1,5 +1,5 @@
 id: 178d7059-96bb-4a2e-8efd-9c50ea36e6f7
-version: 1
+version: 5
 name: Test playbook
 starttaskid: "0"
 tasks:
@@ -38,6 +38,9 @@ tasks:
       type: regular
       iscommand: false
       brand: ""
+    nexttasks:
+      '#none#':
+      - "3"
     separatecontext: false
     view: |-
       {
@@ -59,6 +62,10 @@ tasks:
       type: regular
       iscommand: false
       brand: ""
+    nexttasks:
+      '#none#':
+      - "4"
+      - "5"
     separatecontext: false
     view: |-
       {
@@ -69,14 +76,77 @@ tasks:
       }
     note: false
     timertriggers: []
+  "3":
+    id: "3"
+    taskid: 11b3ee7f-b9f3-4b7e-8f2b-de884fe01b2c
+    type: regular
+    task:
+      id: 11b3ee7f-b9f3-4b7e-8f2b-de884fe01b2c
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 820,
+          "y": 690
+        }
+      }
+    note: false
+    timertriggers: []
+  "4":
+    id: "4"
+    taskid: b1492455-10af-40a0-85d9-80576a56a5a5
+    type: regular
+    task:
+      id: b1492455-10af-40a0-85d9-80576a56a5a5
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 300,
+          "y": 620
+        }
+      }
+    note: false
+    timertriggers: []
+  "5":
+    id: "5"
+    taskid: b79ca52d-d416-46b3-8d92-32bc00d64f0c
+    type: regular
+    task:
+      id: b79ca52d-d416-46b3-8d92-32bc00d64f0c
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 190,
+          "y": 420
+        }
+      }
+    note: false
+    timertriggers: []
 view: |-
   {
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
-        "height": 565,
-        "width": 740,
-        "x": 310,
+        "height": 735,
+        "width": 1010,
+        "x": 190,
         "y": 50
       }
     }
