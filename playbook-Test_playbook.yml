@@ -1,5 +1,5 @@
 id: 178d7059-96bb-4a2e-8efd-9c50ea36e6f7
-version: 5
+version: 6
 name: Test playbook
 starttaskid: "0"
 tasks:
@@ -17,6 +17,7 @@ tasks:
       '#none#':
       - "1"
       - "2"
+      - "6"
     separatecontext: false
     view: |-
       {
@@ -139,13 +140,34 @@ tasks:
       }
     note: false
     timertriggers: []
+  "6":
+    id: "6"
+    taskid: 21d9723f-04b6-46fa-8e9a-bbcfcf70cbd3
+    type: regular
+    task:
+      id: 21d9723f-04b6-46fa-8e9a-bbcfcf70cbd3
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 1200,
+          "y": 210
+        }
+      }
+    note: false
+    timertriggers: []
 view: |-
   {
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
         "height": 735,
-        "width": 1010,
+        "width": 1390,
         "x": 190,
         "y": 50
       }
