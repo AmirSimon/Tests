@@ -1,6 +1,6 @@
 commonfields:
   id: New test
-  version: 2
+  version: 3
 name: New test
 display: New test
 category: Data Enrichment & Threat Intelligence
@@ -8,6 +8,6 @@ configuration: []
 script:
   script: |2-
 
-    #testing
+    #testingdsdsds
   type: python
   runonce: false
