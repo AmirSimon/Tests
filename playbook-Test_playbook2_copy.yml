@@ -1,5 +1,5 @@
 id: 32d5e9b2-9cfd-4480-884b-031800280e49
-version: 1
+version: 2
 name: Test playbook2_copy
 starttaskid: "0"
 tasks:
