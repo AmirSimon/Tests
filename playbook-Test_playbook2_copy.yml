@@ -1,0 +1,85 @@
+id: 32d5e9b2-9cfd-4480-884b-031800280e49
+version: 1
+name: Test playbook2_copy
+starttaskid: "0"
+tasks:
+  "0":
+    id: "0"
+    taskid: 36a728cd-3e39-4cf9-8f3a-7bce679e9cb4
+    type: start
+    task:
+      id: 36a728cd-3e39-4cf9-8f3a-7bce679e9cb4
+      version: -1
+      name: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "1"
+      - "2"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 50
+        }
+      }
+    note: false
+    timertriggers: []
+  "1":
+    id: "1"
+    taskid: 8b96e4d4-1364-4a4c-83cf-82d9d698c831
+    type: regular
+    task:
+      id: 8b96e4d4-1364-4a4c-83cf-82d9d698c831
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 670,
+          "y": 390
+        }
+      }
+    note: false
+    timertriggers: []
+  "2":
+    id: "2"
+    taskid: ddfc5344-36fc-436c-8ccc-f713e27461a7
+    type: regular
+    task:
+      id: ddfc5344-36fc-436c-8ccc-f713e27461a7
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 310,
+          "y": 520
+        }
+      }
+    note: false
+    timertriggers: []
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 565,
+        "width": 740,
+        "x": 310,
+        "y": 50
+      }
+    }
+  }
+inputs: []
+outputs: []
