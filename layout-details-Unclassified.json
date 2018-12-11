@@ -1,8 +1,8 @@
 {
 	"id": "Unclassified",
-	"version": 1,
-	"modified": "2018-12-11T12:50:01.209618295Z",
-	"commitMessage": "bbbbb",
+	"version": 2,
+	"modified": "2018-12-11T12:58:25.173627885Z",
+	"commitMessage": "",
 	"shouldPublish": true,
 	"shouldCommit": true,
 	"shouldPush": true,
@@ -50,115 +50,11 @@
 			"id": "",
 			"version": 0,
 			"modified": "0001-01-01T00:00:00Z",
-			"name": "Work Plan",
+			"name": "Work Plansss",
 			"type": "workplan",
 			"isVisible": true,
 			"readOnly": true,
 			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Timeline Information",
-			"type": "",
-			"isVisible": true,
-			"readOnly": false,
-			"fields": [
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_dbotcreated",
-					"isVisible": true
-				},
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_occurred",
-					"isVisible": true
-				},
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_dbotduedate",
-					"isVisible": true
-				},
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_dbotmodified",
-					"isVisible": true
-				},
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_dbottotaltime",
-					"isVisible": true
-				}
-			],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Custom Fields",
-			"type": "",
-			"isVisible": true,
-			"readOnly": false,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Details",
-			"type": "",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_details",
-					"isVisible": true
-				}
-			],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Labels",
-			"type": "labels",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_labels",
-					"isVisible": true
-				}
-			],
 			"description": "",
 			"query": null,
 			"queryType": ""
