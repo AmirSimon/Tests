@@ -1,6 +1,6 @@
 commonfields:
   id: b7e423e5-749c-4a24-8742-c21e98b176ea
-  version: 1
+  version: 2
 name: getMlFeatures_copy
 script: |+
   #!/usr/bin/env python
