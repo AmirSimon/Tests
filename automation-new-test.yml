@@ -1,6 +1,6 @@
 commonfields:
   id: d448b014-8fb2-494d-866d-5ccea6da0c4e
-  version: 2
+  version: 3
 name: new-test
 script: checking
 type: python
