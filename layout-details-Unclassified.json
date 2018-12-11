@@ -1,11 +1,11 @@
 {
 	"id": "Unclassified",
-	"version": 2,
-	"modified": "2018-12-11T12:58:25.173627885Z",
+	"version": 3,
+	"modified": "2018-12-11T13:03:13.186554746Z",
 	"commitMessage": "",
 	"shouldPublish": true,
-	"shouldCommit": true,
-	"shouldPush": true,
+	"shouldCommit": false,
+	"shouldPush": false,
 	"versionedDiff": {
 		"action": "",
 		"addedLines": 0,
@@ -55,27 +55,6 @@
 			"isVisible": true,
 			"readOnly": true,
 			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Attachments",
-			"type": "",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [
-				{
-					"id": "",
-					"version": 0,
-					"modified": "0001-01-01T00:00:00Z",
-					"fieldId": "incident_attachment",
-					"isVisible": true
-				}
-			],
 			"description": "",
 			"query": null,
 			"queryType": ""
