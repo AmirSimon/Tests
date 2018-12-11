@@ -1,0 +1,11 @@
+commonfields:
+  id: 675329bd-e389-4bf4-80f1-dc00886758e5
+  version: 2
+name: gg
+script: ""
+type: python
+tags: []
+enabled: true
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
