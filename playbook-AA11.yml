@@ -1,5 +1,5 @@
 id: b71c5989-1fcf-46f6-826f-f9a5b191b6ce
-version: 4
+version: 5
 name: AA11
 starttaskid: "0"
 tasks:
@@ -15,41 +15,13 @@ tasks:
       brand: ""
     nexttasks:
       '#none#':
-      - "1"
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 450,
-          "y": 50
-        }
-      }
-    note: false
-    timertriggers: []
-  "1":
-    id: "1"
-    taskid: 3ced224e-72fc-414c-84c5-49fbe31fa1a8
-    type: regular
-    task:
-      id: 3ced224e-72fc-414c-84c5-49fbe31fa1a8
-      version: -1
-      name: threat-crowd-email
-      description: Get email report
-      script: Threat Crowd|||threat-crowd-email
-      type: regular
-      iscommand: true
-      brand: Threat Crowd
-    nexttasks:
-      '#none#':
-      - "2"
-      - "3"
       - "4"
     separatecontext: false
     view: |-
       {
         "position": {
           "x": 450,
-          "y": 230
+          "y": 50
         }
       }
     note: false
@@ -67,6 +39,9 @@ tasks:
       type: regular
       iscommand: true
       brand: Rasterize
+    nexttasks:
+      '#none#':
+      - "3"
     separatecontext: false
     view: |-
       {
@@ -112,6 +87,9 @@ tasks:
       type: regular
       iscommand: false
       brand: ""
+    nexttasks:
+      '#none#':
+      - "2"
     scriptarguments:
       text:
         simple: 6.6.6.6
