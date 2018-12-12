@@ -1,10 +1,10 @@
 {
 	"id": "60fd7107-eed1-42a5-86e8-9747885375d2",
-	"version": 1,
-	"modified": "2018-12-12T09:10:06.420499271Z",
+	"version": 2,
+	"modified": "2018-12-12T11:19:58.00236919Z",
 	"commitMessage": "",
 	"shouldPublish": true,
-	"shouldCommit": false,
+	"shouldCommit": true,
 	"shouldPush": false,
 	"versionedDiff": {
 		"action": "",
