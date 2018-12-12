@@ -1,0 +1,115 @@
+id: b71c5989-1fcf-46f6-826f-f9a5b191b6ce
+version: 3
+name: AA11
+starttaskid: "0"
+tasks:
+  "0":
+    id: "0"
+    taskid: ed6e842f-5af7-4c0d-808d-22858083157d
+    type: start
+    task:
+      id: ed6e842f-5af7-4c0d-808d-22858083157d
+      version: -1
+      name: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "1"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 50
+        }
+      }
+    note: false
+    timertriggers: []
+  "1":
+    id: "1"
+    taskid: 3ced224e-72fc-414c-84c5-49fbe31fa1a8
+    type: regular
+    task:
+      id: 3ced224e-72fc-414c-84c5-49fbe31fa1a8
+      version: -1
+      name: threat-crowd-email
+      description: Get email report
+      script: Threat Crowd|||threat-crowd-email
+      type: regular
+      iscommand: true
+      brand: Threat Crowd
+    nexttasks:
+      '#none#':
+      - "2"
+      - "3"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 230
+        }
+      }
+    note: false
+    timertriggers: []
+  "2":
+    id: "2"
+    taskid: 069d97cd-cc2c-4b4a-84f5-432d17502d7b
+    type: regular
+    task:
+      id: 069d97cd-cc2c-4b4a-84f5-432d17502d7b
+      version: -1
+      name: rasterize
+      description: Rasterize a URL into image or PDF
+      script: Rasterize|||rasterize
+      type: regular
+      iscommand: true
+      brand: Rasterize
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 470,
+          "y": 650
+        }
+      }
+    note: false
+    timertriggers: []
+  "3":
+    id: "3"
+    taskid: 09fcbfc9-7f8e-4043-82a5-bee91b6ac656
+    type: regular
+    task:
+      id: 09fcbfc9-7f8e-4043-82a5-bee91b6ac656
+      version: -1
+      name: setList
+      description: Set data in list
+      script: Builtin|||setList
+      type: regular
+      iscommand: true
+      brand: Builtin
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 1040,
+          "y": 460
+        }
+      }
+    note: false
+    timertriggers: []
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 695,
+        "width": 970,
+        "x": 450,
+        "y": 50
+      }
+    }
+  }
+inputs: []
+outputs: []
