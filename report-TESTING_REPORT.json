@@ -1,0 +1,434 @@
+{
+	"id": "60fd7107-eed1-42a5-86e8-9747885375d2",
+	"version": 1,
+	"modified": "2018-12-12T09:10:06.420499271Z",
+	"commitMessage": "",
+	"shouldPublish": true,
+	"shouldCommit": false,
+	"shouldPush": false,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"startDate": "0001-01-01T00:00:00Z",
+	"times": 0,
+	"recurrent": false,
+	"endingDate": "0001-01-01T00:00:00Z",
+	"timezoneOffset": 0,
+	"cronView": false,
+	"scheduled": false,
+	"name": "TESTING REPORT",
+	"prevName": "TESTING REPORT",
+	"type": "pdf",
+	"prevType": "pdf",
+	"system": false,
+	"locked": false,
+	"sections": [
+		{
+			"type": "chart",
+			"data": null,
+			"layout": {
+				"chartProperties": {
+					"cx": "50%",
+					"cy": "50%",
+					"innerRadius": "75%",
+					"layout": "vertical",
+					"maxRadius": 0,
+					"outerRadius": "100%"
+				},
+				"chartType": "pie",
+				"columnPos": 4,
+				"dimensions": {
+					"height": 300,
+					"width": 277
+				},
+				"h": 3,
+				"i": "13908e30-fdec-11e8-87c9-4d1eabba03b5",
+				"legendStyle": {
+					"align": "center",
+					"iconType": "circle",
+					"layout": "vertical",
+					"verticalAlign": "bottom",
+					"width": 0
+				},
+				"rowPos": 0,
+				"w": 5
+			},
+			"query": {
+				"type": "incident",
+				"groupBy": [
+					"severity"
+				],
+				"filter": {
+					"query": "-category:job and -status:archived and -status:closed",
+					"period": {
+						"byFrom": "days",
+						"fromValue": 7,
+						"by": "day"
+					},
+					"fromDate": null,
+					"toDate": null
+				}
+			},
+			"automation": {
+				"name": "",
+				"id": "",
+				"args": null,
+				"noEvent": false
+			},
+			"title": "Active Incidents by Severity"
+		},
+		{
+			"type": "markdown",
+			"data": "This is the testing report",
+			"layout": {
+				"columnPos": 2,
+				"h": 3,
+				"i": "1c902cc0-fdec-11e8-87c9-4d1eabba03b5",
+				"rowPos": 3,
+				"w": 5
+			},
+			"query": {
+				"type": "incident",
+				"filter": {
+					"query": "",
+					"period": {
+						"byFrom": "days",
+						"fromValue": 7,
+						"by": "day"
+					},
+					"fromDate": null,
+					"toDate": null
+				}
+			},
+			"automation": {
+				"name": "",
+				"id": "",
+				"args": null,
+				"noEvent": false
+			},
+			"title": "Text Widget"
+		}
+	],
+	"recipients": null,
+	"orientation": "portrait",
+	"paperSize": "A4",
+	"runOnce": false,
+	"latestReportName": "",
+	"latestReportTime": "0001-01-01T00:00:00Z",
+	"latestScheduledReportTime": "0001-01-01T00:00:00Z",
+	"nextScheduledTime": "0001-01-01T00:00:00Z",
+	"latestReportUsername": "",
+	"decoder": {
+		"evidences.fetched": {
+			"type": "date",
+			"value": "02/01/06 3:04:05 PM"
+		},
+		"evidences.markedDate": {
+			"type": "date",
+			"value": "02/01/06 3:04:05 PM"
+		},
+		"evidences.occurred": {
+			"type": "date",
+			"value": "02/01/06 3:04:05 PM"
+		},
+		"incident.activated": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.closed": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.created": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.dbotStatus.0": {
+			"type": "string",
+			"value": "Not Assigned"
+		},
+		"incident.dbotStatus.1": {
+			"type": "string",
+			"value": "Assigned"
+		},
+		"incident.dbotStatus.2": {
+			"type": "string",
+			"value": "Done"
+		},
+		"incident.dbotStatus.3": {
+			"type": "string",
+			"value": "Closed"
+		},
+		"incident.dbotStatus.4": {
+			"type": "string",
+			"value": "On Hold"
+		},
+		"incident.dueDate": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.modified": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.occurred": {
+			"type": "date",
+			"value": "02 Jan 2006"
+		},
+		"incident.openDuration": {
+			"type": "duration",
+			"value": ""
+		},
+		"incident.phase.": {
+			"type": "string",
+			"value": "Unassigned"
+		},
+		"incident.reminder": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"incident.roles.": {
+			"type": "string",
+			"value": "Unassigned"
+		},
+		"incident.severity.0": {
+			"type": "string",
+			"value": "Unknown"
+		},
+		"incident.severity.0.5": {
+			"type": "string",
+			"value": "Informational"
+		},
+		"incident.severity.1": {
+			"type": "string",
+			"value": "Low"
+		},
+		"incident.severity.2": {
+			"type": "string",
+			"value": "Medium"
+		},
+		"incident.severity.3": {
+			"type": "string",
+			"value": "High"
+		},
+		"incident.severity.4": {
+			"type": "string",
+			"value": "Critical"
+		},
+		"incident.status.0": {
+			"type": "string",
+			"value": "Not Assigned"
+		},
+		"incident.status.1": {
+			"type": "string",
+			"value": "Assigned"
+		},
+		"incident.status.2": {
+			"type": "string",
+			"value": "Done"
+		},
+		"incident.status.3": {
+			"type": "string",
+			"value": "Closed"
+		},
+		"incident.status.4": {
+			"type": "string",
+			"value": "On Hold"
+		},
+		"incident.totalTime": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"indicators.firstSeen": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"indicators.lastSeen": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"indicators.score.0": {
+			"type": "string",
+			"value": "None"
+		},
+		"indicators.score.1": {
+			"type": "string",
+			"value": "Good"
+		},
+		"indicators.score.2": {
+			"type": "string",
+			"value": "suspicious"
+		},
+		"indicators.score.3": {
+			"type": "string",
+			"value": "Bad"
+		},
+		"investigation.closed": {
+			"type": "date",
+			"value": "02 Jan 2006"
+		},
+		"investigation.created": {
+			"type": "date",
+			"value": "Mon, 02 Jan 2006 15:04:05 MST"
+		},
+		"investigation.openDuration": {
+			"type": "duration",
+			"value": ""
+		},
+		"investigation.status.0": {
+			"type": "string",
+			"value": "Active"
+		},
+		"investigation.status.1": {
+			"type": "string",
+			"value": "Done"
+		},
+		"investigation.type.0": {
+			"type": "string",
+			"value": "Standard"
+		},
+		"investigation.type.1": {
+			"type": "string",
+			"value": "Restricted"
+		},
+		"investigation.type.9": {
+			"type": "string",
+			"value": "Playground"
+		}
+	},
+	"reportType": "",
+	"sensitive": false,
+	"runningUser": "",
+	"userAPIKeyID": "",
+	"userAPIKey": "",
+	"disableHeader": false,
+	"dashboard": {
+		"id": "",
+		"version": 0,
+		"modified": "0001-01-01T00:00:00Z",
+		"commitMessage": "",
+		"shouldPublish": false,
+		"shouldCommit": false,
+		"shouldPush": false,
+		"versionedDiff": {
+			"action": "",
+			"addedLines": 0,
+			"deletedLines": 0
+		},
+		"fromDate": "0001-01-01T00:00:00Z",
+		"toDate": "0001-01-01T00:00:00Z",
+		"period": {
+			"byTo": "",
+			"byFrom": "days",
+			"toValue": null,
+			"fromValue": 7,
+			"field": ""
+		},
+		"fromDateLicense": "0001-01-01T00:00:00Z",
+		"name": "TESTING REPORT",
+		"prevName": "",
+		"layout": [
+			{
+				"id": "13908e30-fdec-11e8-87c9-4d1eabba03b5",
+				"forceRange": false,
+				"x": 4,
+				"y": 0,
+				"i": "13908e30-fdec-11e8-87c9-4d1eabba03b5",
+				"w": 5,
+				"h": 3,
+				"widget": {
+					"id": "active-incidents-by-severity",
+					"version": 3,
+					"modified": "2018-12-11T08:45:37.424717656Z",
+					"commitMessage": "",
+					"shouldPublish": false,
+					"shouldCommit": false,
+					"shouldPush": false,
+					"versionedDiff": {
+						"action": "",
+						"addedLines": 0,
+						"deletedLines": 0
+					},
+					"name": "Active Incidents by Severity",
+					"prevName": "Active Incidents by Severity",
+					"dataType": "incidents",
+					"widgetType": "pie",
+					"query": "-category:job and -status:archived and -status:closed",
+					"sort": null,
+					"isPredefined": true,
+					"dateRange": {
+						"fromDate": "0001-01-01T00:00:00Z",
+						"toDate": "0001-01-01T00:00:00Z",
+						"period": {
+							"byTo": "",
+							"byFrom": "days",
+							"toValue": null,
+							"fromValue": 7,
+							"field": ""
+						},
+						"fromDateLicense": "0001-01-01T00:00:00Z"
+					},
+					"params": {
+						"groupBy": [
+							"severity"
+						]
+					},
+					"size": 0,
+					"category": ""
+				}
+			},
+			{
+				"id": "1c902cc0-fdec-11e8-87c9-4d1eabba03b5",
+				"forceRange": false,
+				"x": 2,
+				"y": 3,
+				"i": "1c902cc0-fdec-11e8-87c9-4d1eabba03b5",
+				"w": 5,
+				"h": 3,
+				"widget": {
+					"id": "",
+					"version": 0,
+					"modified": "2018-12-11T08:45:37.454906621Z",
+					"commitMessage": "",
+					"shouldPublish": true,
+					"shouldCommit": false,
+					"shouldPush": false,
+					"versionedDiff": {
+						"action": "",
+						"addedLines": 0,
+						"deletedLines": 0
+					},
+					"name": "Text Widget",
+					"prevName": "Text Widget",
+					"dataType": "incidents",
+					"widgetType": "text",
+					"query": "",
+					"sort": null,
+					"isPredefined": false,
+					"dateRange": {
+						"fromDate": "0001-01-01T00:00:00Z",
+						"toDate": "0001-01-01T00:00:00Z",
+						"period": {
+							"byTo": "",
+							"byFrom": "days",
+							"toValue": null,
+							"fromValue": null,
+							"field": ""
+						},
+						"fromDateLicense": "0001-01-01T00:00:00Z"
+					},
+					"params": {
+						"text": "This is the testing report"
+					},
+					"size": 0,
+					"category": "utility"
+				}
+			}
+		],
+		"isPredefined": false,
+		"shared": false,
+		"owner": ""
+	}
+}
