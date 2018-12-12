@@ -1,5 +1,5 @@
 id: b71c5989-1fcf-46f6-826f-f9a5b191b6ce
-version: 3
+version: 4
 name: AA11
 starttaskid: "0"
 tasks:
@@ -43,6 +43,7 @@ tasks:
       '#none#':
       - "2"
       - "3"
+      - "4"
     separatecontext: false
     view: |-
       {
@@ -99,14 +100,39 @@ tasks:
       }
     note: false
     timertriggers: []
+  "4":
+    id: "4"
+    taskid: 647aba60-3c0c-4baf-8fd9-29c78efda05b
+    type: regular
+    task:
+      id: 647aba60-3c0c-4baf-8fd9-29c78efda05b
+      version: -1
+      name: Untitled Task
+      script: ExtractIP
+      type: regular
+      iscommand: false
+      brand: ""
+    scriptarguments:
+      text:
+        simple: 6.6.6.6
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 180,
+          "y": 490
+        }
+      }
+    note: false
+    timertriggers: []
 view: |-
   {
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
         "height": 695,
-        "width": 970,
-        "x": 450,
+        "width": 1240,
+        "x": 180,
         "y": 50
       }
     }
