@@ -1,7 +1,7 @@
 {
 	"id": "18e6c2ed-c189-4658-88ef-845e52f6e4b8",
-	"version": 1,
-	"modified": "2018-12-12T14:38:57.681363776Z",
+	"version": 3,
+	"modified": "2018-12-12T15:13:54.926939764Z",
 	"commitMessage": "Indicator type edited",
 	"shouldPublish": true,
 	"shouldCommit": false,
@@ -26,7 +26,7 @@
 	"updateAfter": 0,
 	"mergeContext": false,
 	"formatScript": "UnEscapeIPs",
-	"contextPath": "",
-	"contextValue": "",
+	"contextPath": "aaa",
+	"contextValue": "bbbbbbbb",
 	"excludedBrands": []
 }
