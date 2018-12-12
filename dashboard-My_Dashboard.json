@@ -1,11 +1,11 @@
 {
-	"id": "my-home-dashboard",
-	"version": -1,
-	"modified": "2018-12-11T08:45:37.465207547Z",
-	"commitMessage": "Demisto content update",
+	"id": "6c32b2c3-59bc-4161-8f70-07cf2ed4539c",
+	"version": 1,
+	"modified": "2018-12-12T15:18:24.914360513Z",
+	"commitMessage": "gfff",
 	"shouldPublish": true,
-	"shouldCommit": false,
-	"shouldPush": false,
+	"shouldCommit": true,
+	"shouldPush": true,
 	"versionedDiff": {
 		"action": "",
 		"addedLines": 0,
@@ -35,7 +35,7 @@
 			"widget": {
 				"id": "my-tasks",
 				"version": 1,
-				"modified": "2018-02-28T14:55:09.423998+02:00",
+				"modified": "2018-02-28T12:55:09.423998Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -86,7 +86,7 @@
 			"widget": {
 				"id": "my-mentions",
 				"version": 1,
-				"modified": "2018-02-28T14:56:46.359548+02:00",
+				"modified": "2018-02-28T12:56:46.359548Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -124,14 +124,14 @@
 			"id": "173ed090-1c89-11e8-a678-fdff55233dc8",
 			"forceRange": false,
 			"x": 4,
-			"y": 0,
+			"y": 2,
 			"i": "173ed090-1c89-11e8-a678-fdff55233dc8",
 			"w": 2,
 			"h": 1,
 			"widget": {
 				"id": "",
 				"version": 0,
-				"modified": "2018-02-28T15:09:00.074192+02:00",
+				"modified": "2018-02-28T13:09:00.074192Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -192,7 +192,7 @@
 			"widget": {
 				"id": "",
 				"version": 0,
-				"modified": "2018-02-28T15:14:29.146947+02:00",
+				"modified": "2018-02-28T13:14:29.146947Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -246,14 +246,14 @@
 			"id": "f12d1f00-1c8e-11e8-b5cb-47979f799c06",
 			"forceRange": false,
 			"x": 0,
-			"y": 2,
+			"y": 3,
 			"i": "f12d1f00-1c8e-11e8-b5cb-47979f799c06",
 			"w": 8,
 			"h": 2,
 			"widget": {
 				"id": "65",
 				"version": 2,
-				"modified": "2018-02-28T15:54:38.768401+02:00",
+				"modified": "2018-02-28T13:54:38.768401Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -271,7 +271,7 @@
 				"sort": null,
 				"isPredefined": false,
 				"dateRange": {
-					"fromDate": "2018-01-17T00:00:00+02:00",
+					"fromDate": "2018-01-16T22:00:00Z",
 					"toDate": "0001-01-01T00:00:00Z",
 					"period": {
 						"byTo": "",
@@ -303,7 +303,7 @@
 			"widget": {
 				"id": "my-mean-time-to-resolution",
 				"version": 2,
-				"modified": "2018-02-28T15:55:31.609278+02:00",
+				"modified": "2018-02-28T13:55:31.609278Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -345,5 +345,5 @@
 	],
 	"isPredefined": true,
 	"shared": false,
-	"owner": ""
+	"owner": "admin"
 }
