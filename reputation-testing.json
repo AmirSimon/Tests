@@ -1,0 +1,32 @@
+{
+	"id": "18e6c2ed-c189-4658-88ef-845e52f6e4b8",
+	"version": 1,
+	"modified": "2018-12-12T14:38:57.681363776Z",
+	"commitMessage": "Indicator type edited",
+	"shouldPublish": true,
+	"shouldCommit": false,
+	"shouldPush": false,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"regex": "",
+	"details": "testing",
+	"prevDetails": "testing",
+	"reputationScriptName": "EmailDomainSquattingReputation",
+	"reputationCommand": "threat-crowd-domain",
+	"enhancementScriptNames": [
+		"FileReputation"
+	],
+	"system": false,
+	"locked": false,
+	"disabled": false,
+	"file": false,
+	"updateAfter": 0,
+	"mergeContext": false,
+	"formatScript": "UnEscapeIPs",
+	"contextPath": "",
+	"contextValue": "",
+	"excludedBrands": []
+}
