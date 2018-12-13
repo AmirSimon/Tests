@@ -1,0 +1,27 @@
+{
+	"id": "6",
+	"version": 1,
+	"modified": "2018-12-13T16:04:36.199676571Z",
+	"commitMessage": "cccc",
+	"shouldPublish": true,
+	"shouldCommit": true,
+	"shouldPush": true,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"defaultIncidentType": "",
+	"instanceId": "",
+	"mapping": {},
+	"unclassifiedCases": {},
+	"incidentSamples": [],
+	"custom": true,
+	"transformer": {
+		"simple": "x",
+		"complex": null
+	},
+	"keyTypeMap": {},
+	"brandName": "",
+	"instanceName": ""
+}
