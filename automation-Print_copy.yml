@@ -1,6 +1,6 @@
 commonfields:
   id: 6739e388-af6e-43cc-8549-d5a6b36008c6
-  version: 1
+  version: 2
 name: Print_copy
 script: |
   return {
