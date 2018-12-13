@@ -1,0 +1,18 @@
+commonfields:
+  id: 43dbd378-8d48-43da-8ffb-a350aecd12e4
+  version: 2
+name: print2
+script: |
+  return {
+      HumanReadableFormat: formats.markdown,
+      Type: entryTypes.note,
+      Contents: args.value,
+      HumanReadable: args.value
+  };
+type: python
+tags: []
+comment: print2
+enabled: true
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
