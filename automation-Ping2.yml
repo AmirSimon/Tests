@@ -1,0 +1,58 @@
+commonfields:
+  id: Ping2
+  version: 2
+name: Ping2
+script: |-
+  import pyping
+  try:
+      r = pyping.ping(demisto.args()['address'])
+      res = {}
+      res['ret_code'] = r.ret_code
+      res['destination'] = r.destination
+      res['max_rtt'] = r.max_rtt
+      res['avg_rtt'] = r.avg_rtt
+      res['min_rtt'] = r.min_rtt
+      res['destination_ip'] = r.destination_ip
+      demisto.results({
+          'Type': entryTypes['note'],
+          'Contents': res,
+          'ContentsFormat': formats['json'],
+          'HumanReadable': tableToMarkdown("Ping2 Results", res),
+          'ReadableContentsFormat' : formats['markdown'],
+          'EntryContext': { "Ping2": res }
+      })
+  except Exception as e:
+      demisto.results( { "Type" : entryTypes["error"], "ContentsFormat" : formats["text"], "Contents" : str(e) } )
+type: python
+tags:
+- Utility
+comment: Pings an IP or url address, to verify it's up
+enabled: true
+args:
+- name: address
+  required: true
+  default: true
+  description: Address to ping2
+outputs:
+- contextPath: Ping2.ret_code
+  description: Ping2 return code
+  type: number
+- contextPath: Ping2.destination
+  description: Ping2 destination address
+  type: string
+- contextPath: Ping2.max_rtt
+  description: Ping2 max round trip time
+  type: number
+- contextPath: Ping2.avg_rtt
+  description: Ping2 average round trip time
+  type: number
+- contextPath: Ping2.min_rtt
+  description: Ping2 minimum round trip time
+  type: number
+- contextPath: Ping2.destination_ip
+  description: Ping2 destination IP
+  type: string
+scripttarget: 0
+runonce: false
+dockerimage: demisto/pyping2
+runas: DBotWeakRole
