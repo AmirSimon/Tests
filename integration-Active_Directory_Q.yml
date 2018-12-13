@@ -1,6 +1,6 @@
-commonfields::ssdsdsaddsds
+commonfields:
   id: Active Directory Q
-  version: -1
+  version: 2
 name: Active Directory Q
 display: Active Directory Q
 category: Data Enrichment & Threat Intelligence
