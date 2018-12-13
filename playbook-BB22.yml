@@ -1,5 +1,5 @@
 id: acaeb2f5-ac00-45b9-82c6-f04ad87fe597
-version: 1
+version: 2
 name: BB22
 starttaskid: "0"
 tasks:
@@ -28,10 +28,10 @@ tasks:
     timertriggers: []
   "1":
     id: "1"
-    taskid: cda14449-61c9-4f33-85f9-524f44144c1d
+    taskid: abd25f2b-eda5-4c0d-85f6-a1cf6feae8d5
     type: regular
     task:
-      id: cda14449-61c9-4f33-85f9-524f44144c1d
+      id: abd25f2b-eda5-4c0d-85f6-a1cf6feae8d5
       version: -1
       name: Ping
       description: Pings an IP or url address, to verify it's up
@@ -41,7 +41,7 @@ tasks:
       brand: ""
     scriptarguments:
       address:
-        simple: www.google.com
+        simple: 6.6.6.6
     separatecontext: false
     view: |-
       {
