@@ -1,11 +1,11 @@
 {
 	"id": "Unclassified",
-	"version": 3,
-	"modified": "2018-12-11T13:03:13.186554746Z",
-	"commitMessage": "",
+	"version": 10,
+	"modified": "2018-12-13T16:53:40.675373311Z",
+	"commitMessage": "שדגדשג",
 	"shouldPublish": true,
-	"shouldCommit": false,
-	"shouldPush": false,
+	"shouldCommit": true,
+	"shouldPush": true,
 	"versionedDiff": {
 		"action": "",
 		"addedLines": 0,
@@ -42,152 +42,6 @@
 					"isVisible": true
 				}
 			],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Work Plansss",
-			"type": "workplan",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Bad or Suspicious Indicators",
-			"type": "indicators",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": "reputation:Bad or reputation:Suspicious",
-			"queryType": "input"
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Evidence",
-			"type": "evidence",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Notes",
-			"type": "notes",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Linked Incidents",
-			"type": "linkedIncidents",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Incident Timeline",
-			"type": "invTimeline",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": {
-				"categories": [
-					"incidentInfo"
-				],
-				"lastId": "",
-				"pageSize": 100,
-				"tags": [],
-				"users": []
-			},
-			"queryType": "warRoomFilter"
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "General Purpose Dynamic Section",
-			"type": "dynamic",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": "script"
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Incident Files",
-			"type": "invTimeline",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": {
-				"categories": [
-					"attachments"
-				],
-				"lastId": "",
-				"pageSize": 100,
-				"tags": [],
-				"users": []
-			},
-			"queryType": "warRoomFilter"
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Team",
-			"type": "team",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
-			"description": "",
-			"query": null,
-			"queryType": ""
-		},
-		{
-			"id": "",
-			"version": 0,
-			"modified": "0001-01-01T00:00:00Z",
-			"name": "Child Incidents",
-			"type": "childInv",
-			"isVisible": true,
-			"readOnly": true,
-			"fields": [],
 			"description": "",
 			"query": null,
 			"queryType": ""
