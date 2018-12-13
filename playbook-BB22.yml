@@ -1,5 +1,5 @@
 id: acaeb2f5-ac00-45b9-82c6-f04ad87fe597
-version: 4
+version: 5
 name: BB22
 starttaskid: "0"
 tasks:
@@ -28,16 +28,19 @@ tasks:
     timertriggers: []
   "1":
     id: "1"
-    taskid: b138bd6b-d035-41b1-854e-72e889593d83
+    taskid: 1a5015f3-938a-49a9-8ab0-b41f729bd8b8
     type: regular
     task:
-      id: b138bd6b-d035-41b1-854e-72e889593d83
+      id: 1a5015f3-938a-49a9-8ab0-b41f729bd8b8
       version: -1
       name: print
-      script: 43dbd378-8d48-43da-8ffb-a350aecd12e4
+      script: 6739e388-af6e-43cc-8549-d5a6b36008c6
       type: regular
       iscommand: false
       brand: ""
+    scriptarguments:
+      value:
+        simple: Hello
     separatecontext: false
     view: |-
       {
