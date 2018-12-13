@@ -1,0 +1,26 @@
+commonfields:
+  id: 6739e388-af6e-43cc-8549-d5a6b36008c6
+  version: 1
+name: Print_copy
+script: |
+  return {
+      HumanReadableFormat: formats.markdown,
+      Type: entryTypes.note,
+      Contents: args.value,
+      HumanReadable: args.value
+  };
+type: javascript
+tags:
+- Utility
+comment: Prints text to war room (Markdown supprted)
+enabled: true
+args:
+- name: value
+  required: true
+  default: true
+  description: The value to print to war room, if you want to print a value stored
+    in context, value should be in format ${key}, where key is the name of context
+    key
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
