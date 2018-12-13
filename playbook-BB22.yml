@@ -1,0 +1,68 @@
+id: acaeb2f5-ac00-45b9-82c6-f04ad87fe597
+version: 1
+name: BB22
+starttaskid: "0"
+tasks:
+  "0":
+    id: "0"
+    taskid: 12bff09d-1618-41d1-8ccd-2cf2de14ef90
+    type: start
+    task:
+      id: 12bff09d-1618-41d1-8ccd-2cf2de14ef90
+      version: -1
+      name: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "1"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 50
+        }
+      }
+    note: false
+    timertriggers: []
+  "1":
+    id: "1"
+    taskid: cda14449-61c9-4f33-85f9-524f44144c1d
+    type: regular
+    task:
+      id: cda14449-61c9-4f33-85f9-524f44144c1d
+      version: -1
+      name: Ping
+      description: Pings an IP or url address, to verify it's up
+      script: Ping
+      type: regular
+      iscommand: false
+      brand: ""
+    scriptarguments:
+      address:
+        simple: www.google.com
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 230
+        }
+      }
+    note: false
+    timertriggers: []
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 275,
+        "width": 380,
+        "x": 450,
+        "y": 50
+      }
+    }
+  }
+inputs: []
+outputs: []
