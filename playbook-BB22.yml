@@ -1,5 +1,5 @@
 id: acaeb2f5-ac00-45b9-82c6-f04ad87fe597
-version: 2
+version: 3
 name: BB22
 starttaskid: "0"
 tasks:
@@ -28,26 +28,25 @@ tasks:
     timertriggers: []
   "1":
     id: "1"
-    taskid: abd25f2b-eda5-4c0d-85f6-a1cf6feae8d5
+    taskid: 8b5076b3-7335-4bf0-87e2-a0619e7f5ace
     type: regular
     task:
-      id: abd25f2b-eda5-4c0d-85f6-a1cf6feae8d5
+      id: 8b5076b3-7335-4bf0-87e2-a0619e7f5ace
       version: -1
-      name: Ping
-      description: Pings an IP or url address, to verify it's up
-      script: Ping
+      name: print
+      script: Print
       type: regular
       iscommand: false
       brand: ""
     scriptarguments:
-      address:
-        simple: 6.6.6.6
+      value:
+        simple: HELLO
     separatecontext: false
     view: |-
       {
         "position": {
-          "x": 450,
-          "y": 230
+          "x": 470,
+          "y": 360
         }
       }
     note: false
@@ -57,8 +56,8 @@ view: |-
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
-        "height": 275,
-        "width": 380,
+        "height": 405,
+        "width": 400,
         "x": 450,
         "y": 50
       }
