@@ -1,5 +1,5 @@
 id: acaeb2f5-ac00-45b9-82c6-f04ad87fe597
-version: 3
+version: 4
 name: BB22
 starttaskid: "0"
 tasks:
@@ -28,25 +28,22 @@ tasks:
     timertriggers: []
   "1":
     id: "1"
-    taskid: 8b5076b3-7335-4bf0-87e2-a0619e7f5ace
+    taskid: b138bd6b-d035-41b1-854e-72e889593d83
     type: regular
     task:
-      id: 8b5076b3-7335-4bf0-87e2-a0619e7f5ace
+      id: b138bd6b-d035-41b1-854e-72e889593d83
       version: -1
       name: print
-      script: Print
+      script: 43dbd378-8d48-43da-8ffb-a350aecd12e4
       type: regular
       iscommand: false
       brand: ""
-    scriptarguments:
-      value:
-        simple: HELLO
     separatecontext: false
     view: |-
       {
         "position": {
-          "x": 470,
-          "y": 360
+          "x": 450,
+          "y": 410
         }
       }
     note: false
@@ -56,8 +53,8 @@ view: |-
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
-        "height": 405,
-        "width": 400,
+        "height": 455,
+        "width": 380,
         "x": 450,
         "y": 50
       }
