@@ -1,8 +1,8 @@
 commonfields:
   id: 28693243-cfce-444a-8342-3b551df6621b
-  version: 4
+  version: 5
 name: aaaa
-script: sagy
+script: ""
 type: python
 tags: []
 enabled: true
