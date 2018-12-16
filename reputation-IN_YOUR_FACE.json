@@ -1,0 +1,30 @@
+{
+	"id": "097e09bf-de96-4006-8a91-9af6dfbc1e55",
+	"version": 1,
+	"modified": "2018-12-16T08:27:36.313329856Z",
+	"commitMessage": "Indicator type edited",
+	"shouldPublish": true,
+	"shouldCommit": false,
+	"shouldPush": false,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"regex": "",
+	"details": "IN YOUR FACE",
+	"prevDetails": "IN YOUR FACE",
+	"reputationScriptName": "",
+	"reputationCommand": "",
+	"enhancementScriptNames": [],
+	"system": false,
+	"locked": false,
+	"disabled": false,
+	"file": false,
+	"updateAfter": 0,
+	"mergeContext": false,
+	"formatScript": "",
+	"contextPath": "",
+	"contextValue": "",
+	"excludedBrands": []
+}
