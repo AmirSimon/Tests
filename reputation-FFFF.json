@@ -1,0 +1,30 @@
+{
+	"id": "97daf5df-3ba4-46f0-8bab-7f1b07720ba4",
+	"version": 1,
+	"modified": "2018-12-16T08:29:17.25631588Z",
+	"commitMessage": "Indicator type edited",
+	"shouldPublish": true,
+	"shouldCommit": false,
+	"shouldPush": false,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"regex": "",
+	"details": "FFFF",
+	"prevDetails": "FFFF",
+	"reputationScriptName": "DataDomainReputation",
+	"reputationCommand": "hybrid-analysis-scan",
+	"enhancementScriptNames": [],
+	"system": false,
+	"locked": false,
+	"disabled": false,
+	"file": false,
+	"updateAfter": 0,
+	"mergeContext": false,
+	"formatScript": "UnEscapeIPs",
+	"contextPath": "",
+	"contextValue": "",
+	"excludedBrands": []
+}
