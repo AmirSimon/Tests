@@ -1,0 +1,34 @@
+{
+	"id": "b7c8cde6-13ed-4426-8b73-367c14f73c53",
+	"version": 1,
+	"modified": "2018-12-16T08:24:49.691436711Z",
+	"commitMessage": "Indicator type edited",
+	"shouldPublish": true,
+	"shouldCommit": false,
+	"shouldPush": false,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"regex": "",
+	"details": "SAGY",
+	"prevDetails": "SAGY",
+	"reputationScriptName": "",
+	"reputationCommand": "",
+	"enhancementScriptNames": [
+		"FileReputation"
+	],
+	"system": false,
+	"locked": false,
+	"disabled": false,
+	"file": false,
+	"updateAfter": 0,
+	"mergeContext": false,
+	"formatScript": "UnEscapeIPs",
+	"contextPath": "",
+	"contextValue": "",
+	"excludedBrands": [
+		"OpenPhish"
+	]
+}
