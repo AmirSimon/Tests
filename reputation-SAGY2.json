@@ -1,0 +1,30 @@
+{
+	"id": "b492dae2-e258-45a3-8523-4280485fa1d2",
+	"version": 1,
+	"modified": "2018-12-16T08:26:16.861654855Z",
+	"commitMessage": "Indicator type edited",
+	"shouldPublish": true,
+	"shouldCommit": false,
+	"shouldPush": false,
+	"versionedDiff": {
+		"action": "",
+		"addedLines": 0,
+		"deletedLines": 0
+	},
+	"regex": "gfhg",
+	"details": "SAGY2",
+	"prevDetails": "SAGY2",
+	"reputationScriptName": "",
+	"reputationCommand": "cve-latest",
+	"enhancementScriptNames": [],
+	"system": false,
+	"locked": false,
+	"disabled": false,
+	"file": false,
+	"updateAfter": 0,
+	"mergeContext": false,
+	"formatScript": "",
+	"contextPath": "sds",
+	"contextValue": "jhgfg",
+	"excludedBrands": []
+}
