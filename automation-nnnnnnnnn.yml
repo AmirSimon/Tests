@@ -1,0 +1,13 @@
+commonfields:
+  id: 28693243-cfce-444a-8342-3b551df6621a
+  version: 2
+name: nnnnnnnnn
+script: |-
+  # Python template - reading arguments, calling a command, handling errors and returning results
+  res = []
+type: python
+tags: []
+enabled: true
+scripttarget: 0
+runonce: false
+runas: DBotWeakRole
