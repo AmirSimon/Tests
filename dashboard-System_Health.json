@@ -1,8 +1,8 @@
 {
 	"id": "health-status-dashboard",
-	"version": 43,
-	"modified": "2018-12-17T16:30:45.214333982Z",
-	"commitMessage": "hhhh",
+	"version": 44,
+	"modified": "2018-12-17T16:31:12.743128514Z",
+	"commitMessage": "jj",
 	"shouldPublish": true,
 	"shouldCommit": true,
 	"shouldPush": true,
@@ -554,6 +554,494 @@
 					]
 				},
 				"size": 10,
+				"category": ""
+			}
+		},
+		{
+			"id": "2426c7b0-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 8,
+			"y": 3,
+			"i": "2426c7b0-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "24b04300-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 10,
+			"y": 5,
+			"i": "24b04300-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "251c7250-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 0,
+			"y": 5,
+			"i": "251c7250-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "25d932a0-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 2,
+			"y": 5,
+			"i": "25d932a0-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "2605e7f0-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 4,
+			"y": 5,
+			"i": "2605e7f0-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "26249380-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 6,
+			"y": 5,
+			"i": "26249380-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "2643b440-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 8,
+			"y": 4,
+			"i": "2643b440-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
+				"category": ""
+			}
+		},
+		{
+			"id": "26a227f0-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 8,
+			"y": 5,
+			"i": "26a227f0-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 1,
+			"widget": {
+				"id": "incidents-error-number",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.537239609Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents in Error Run Status",
+				"prevName": "Incidents in Error Run Status",
+				"dataType": "incidents",
+				"widgetType": "number",
+				"query": "runStatus:error",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"colors": {
+						"isEnabled": true,
+						"items": {
+							"#00CD33": {
+								"value": 10
+							},
+							"#FAC100": {
+								"value": 20
+							},
+							"#FF1B15": {
+								"value": 40
+							}
+						},
+						"type": "above"
+					}
+				},
+				"size": 0,
 				"category": ""
 			}
 		}
