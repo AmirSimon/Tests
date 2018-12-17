@@ -1,6 +1,6 @@
 commonfields:
   id: edbce4d0-80de-4761-886b-839e614e8da8
-  version: 1
+  version: 2
 name: ActiveUsersD2_copy
 script: |-
   resp = executeCommand("D2ActiveUsers", {});
@@ -42,6 +42,7 @@ tags:
 - endpoint
 - agent
 comment: Get active users from a D2 agent and parsed them into context
+enabled: true
 scripttarget: 0
 runonce: false
 runas: DBotWeakRole
