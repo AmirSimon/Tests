@@ -1,0 +1,11 @@
+commonfields:
+  id: New Integration
+  version: 1
+name: New Integration
+display: New Integration
+category: Network Security
+configuration: []
+script:
+  script: df sdf sd fsdfsdfsdf
+  type: python
+  runonce: false
