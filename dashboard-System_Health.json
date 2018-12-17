@@ -1,11 +1,11 @@
 {
 	"id": "health-status-dashboard",
-	"version": -1,
-	"modified": "2018-12-17T13:08:38.774277635Z",
-	"commitMessage": "Demisto content update",
+	"version": 43,
+	"modified": "2018-12-17T16:30:45.214333982Z",
+	"commitMessage": "hhhh",
 	"shouldPublish": true,
-	"shouldCommit": false,
-	"shouldPush": false,
+	"shouldCommit": true,
+	"shouldPush": true,
 	"versionedDiff": {
 		"action": "",
 		"addedLines": 0,
@@ -35,7 +35,7 @@
 			"widget": {
 				"id": "3",
 				"version": 1,
-				"modified": "2018-03-23T18:16:10.634227+03:00",
+				"modified": "2018-03-23T15:16:10.634227Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -99,7 +99,7 @@
 			"widget": {
 				"id": "4",
 				"version": 1,
-				"modified": "2018-03-23T18:17:18.728545+03:00",
+				"modified": "2018-03-23T15:17:18.728545Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -163,7 +163,7 @@
 			"widget": {
 				"id": "12",
 				"version": 1,
-				"modified": "2018-03-23T18:43:35.777902+03:00",
+				"modified": "2018-03-23T15:43:35.777902Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -227,7 +227,7 @@
 			"widget": {
 				"id": "cpu-percentage-trend",
 				"version": 1,
-				"modified": "2018-09-07T13:26:12.309081+03:00",
+				"modified": "2018-09-07T10:26:12.309081Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -275,7 +275,7 @@
 			"widget": {
 				"id": "memory-percentage-trend",
 				"version": 1,
-				"modified": "2018-09-07T13:26:12.335105+03:00",
+				"modified": "2018-09-07T10:26:12.335105Z",
 				"commitMessage": "",
 				"shouldPublish": false,
 				"shouldCommit": false,
@@ -311,9 +311,254 @@
 				"size": 1440,
 				"category": ""
 			}
+		},
+		{
+			"id": "16564020-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 10,
+			"y": 3,
+			"i": "16564020-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 2,
+			"widget": {
+				"id": "incidents-by-role",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.526028163Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents by Role",
+				"prevName": "Incidents by Role",
+				"dataType": "incidents",
+				"widgetType": "bar",
+				"query": "-category:job and -status:closed",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"groupBy": [
+						"roles"
+					]
+				},
+				"size": 10,
+				"category": ""
+			}
+		},
+		{
+			"id": "16f2a730-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 0,
+			"y": 3,
+			"i": "16f2a730-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 2,
+			"widget": {
+				"id": "incidents-by-role",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.526028163Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents by Role",
+				"prevName": "Incidents by Role",
+				"dataType": "incidents",
+				"widgetType": "bar",
+				"query": "-category:job and -status:closed",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"groupBy": [
+						"roles"
+					]
+				},
+				"size": 10,
+				"category": ""
+			}
+		},
+		{
+			"id": "1759cd70-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 2,
+			"y": 3,
+			"i": "1759cd70-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 2,
+			"widget": {
+				"id": "incidents-by-role",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.526028163Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents by Role",
+				"prevName": "Incidents by Role",
+				"dataType": "incidents",
+				"widgetType": "bar",
+				"query": "-category:job and -status:closed",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"groupBy": [
+						"roles"
+					]
+				},
+				"size": 10,
+				"category": ""
+			}
+		},
+		{
+			"id": "17aa3760-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 4,
+			"y": 3,
+			"i": "17aa3760-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 2,
+			"widget": {
+				"id": "incidents-by-role",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.526028163Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents by Role",
+				"prevName": "Incidents by Role",
+				"dataType": "incidents",
+				"widgetType": "bar",
+				"query": "-category:job and -status:closed",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"groupBy": [
+						"roles"
+					]
+				},
+				"size": 10,
+				"category": ""
+			}
+		},
+		{
+			"id": "1806fd60-0219-11e9-9694-3de7cb7816a3",
+			"forceRange": false,
+			"x": 6,
+			"y": 3,
+			"i": "1806fd60-0219-11e9-9694-3de7cb7816a3",
+			"w": 2,
+			"h": 2,
+			"widget": {
+				"id": "incidents-by-role",
+				"version": 42,
+				"modified": "2018-12-17T16:03:55.526028163Z",
+				"commitMessage": "",
+				"shouldPublish": false,
+				"shouldCommit": false,
+				"shouldPush": false,
+				"versionedDiff": {
+					"action": "",
+					"addedLines": 0,
+					"deletedLines": 0
+				},
+				"name": "Incidents by Role",
+				"prevName": "Incidents by Role",
+				"dataType": "incidents",
+				"widgetType": "bar",
+				"query": "-category:job and -status:closed",
+				"sort": null,
+				"isPredefined": true,
+				"dateRange": {
+					"fromDate": "0001-01-01T00:00:00Z",
+					"toDate": "0001-01-01T00:00:00Z",
+					"period": {
+						"byTo": "",
+						"byFrom": "days",
+						"toValue": null,
+						"fromValue": 7,
+						"field": ""
+					},
+					"fromDateLicense": "0001-01-01T00:00:00Z"
+				},
+				"params": {
+					"groupBy": [
+						"roles"
+					]
+				},
+				"size": 10,
+				"category": ""
+			}
 		}
 	],
 	"isPredefined": true,
 	"shared": false,
-	"owner": ""
+	"owner": "admin"
 }
