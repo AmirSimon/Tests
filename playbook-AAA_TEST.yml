@@ -1,0 +1,131 @@
+id: 5f025aca-7f0e-4d7c-848e-ac3e64cd432b
+version: 1
+name: AAA TEST
+starttaskid: "0"
+tasks:
+  "0":
+    id: "0"
+    taskid: 5f05ecd8-7f74-4667-81d6-55a44268e1f4
+    type: start
+    task:
+      id: 5f05ecd8-7f74-4667-81d6-55a44268e1f4
+      version: -1
+      name: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "1"
+      - "2"
+      - "3"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 450,
+          "y": 50
+        }
+      }
+    note: false
+    timertriggers: []
+  "1":
+    id: "1"
+    taskid: 6f0928bb-7259-4dd2-8ff5-745abd71061d
+    type: regular
+    task:
+      id: 6f0928bb-7259-4dd2-8ff5-745abd71061d
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "4"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 630,
+          "y": 310
+        }
+      }
+    note: false
+    timertriggers: []
+  "2":
+    id: "2"
+    taskid: 2f0aef58-d2d7-454e-83ec-fc6d640f4994
+    type: regular
+    task:
+      id: 2f0aef58-d2d7-454e-83ec-fc6d640f4994
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 260,
+          "y": 450
+        }
+      }
+    note: false
+    timertriggers: []
+  "3":
+    id: "3"
+    taskid: 6ecda7be-342c-4973-8ba7-c5749f0cfd48
+    type: regular
+    task:
+      id: 6ecda7be-342c-4973-8ba7-c5749f0cfd48
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 1250,
+          "y": 150
+        }
+      }
+    note: false
+    timertriggers: []
+  "4":
+    id: "4"
+    taskid: 4e78e65a-7634-4a5a-8b92-017d20142262
+    type: regular
+    task:
+      id: 4e78e65a-7634-4a5a-8b92-017d20142262
+      version: -1
+      name: Untitled Task
+      type: regular
+      iscommand: false
+      brand: ""
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 710,
+          "y": 680
+        }
+      }
+    note: false
+    timertriggers: []
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 725,
+        "width": 1370,
+        "x": 260,
+        "y": 50
+      }
+    }
+  }
+inputs: []
+outputs: []
