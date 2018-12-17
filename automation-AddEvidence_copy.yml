@@ -1,6 +1,6 @@
 commonfields:
   id: bea476f6-e91a-4f55-8655-ca1ec782d19a
-  version: 1
+  version: 2
 name: AddEvidence_copy
 script: |-
   if (!args.entryIDs) {
