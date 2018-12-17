@@ -1,0 +1,11 @@
+commonfields:
+  id: New Integration 1
+  version: 1
+name: New Integration 1
+display: New Integration 1
+category: Network Security
+configuration: []
+script:
+  script: esr wer ew
+  type: python
+  runonce: false
